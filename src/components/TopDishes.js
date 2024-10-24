@@ -14,7 +14,7 @@ function TopDishes() {
 
   return (
     <section className="top-dishes">
-      <h2>Top dishes near you</h2>
+      <h2>Top dishes for you</h2>
       <div className="dishes-list">
         {dishes.map((dish, index) => (
           <div className="dish-card" key={index}>

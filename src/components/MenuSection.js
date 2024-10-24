@@ -10,6 +10,7 @@ import menu7 from '../images/menu_7.png';
 import menu8 from '../images/menu_8.png';
 function MenuSection() {
   return (
+    <div>
     <section className="menu-section">
       <h2>Explore our menu</h2>
       <p>Choose from a diverse menu featuring a delectable array of dishes.</p>
@@ -34,6 +35,7 @@ function MenuSection() {
         <h3>Noodels</h3></div>
       </div>
     </section>
+    </div>
   );
 }
 
