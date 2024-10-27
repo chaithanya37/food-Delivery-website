@@ -47,7 +47,7 @@ function App() {
 
   return (
     <Router>
-      <Navbar cartItemCount={cartItems.length} /> {/* Optional: Add cart count to navbar */}
+      <Navbar cartItemCount={cartItems.length} /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route 

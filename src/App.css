@@ -37,7 +37,7 @@ body {
 }
 
 .nav ul li a:hover {
-  color: #ff5722; /* Changes color on hover */
+  color: #ff5722; 
 }
 
 .banner {
@@ -89,12 +89,11 @@ body {
   text-align: center;
   padding: 50px;
 }
-/* General Footer Styling */
 .footer {
-  background-color: #b8b0b0; /* Dark background color */
-  color: #0b0b0b; /* White text color */
+  background-color: #b8b0b0; 
+  color: #0b0b0b; 
   padding: 40px 20px;
-  text-align: center; /* Center-aligns content */
+  text-align: center; 
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -119,16 +118,15 @@ body {
 .social-icons i {
   font-size: 24px;
   margin: 0 10px;
-  color: #ff5722; /* Color for social icons */
+  color: #ff5722;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .social-icons i:hover {
-  color: #fff; /* Hover effect for icons */
+  color: #fff;
 }
 
-/* Footer Links Styling */
 .foot-links ul {
   list-style-type: none;
   padding: 0;
@@ -142,17 +140,15 @@ body {
 }
 
 .foot-links ul li:hover {
-  color: #ff5722; /* Link hover color */
+  color: #ff5722;
   transition: color 0.3s ease;
 }
 
-/* Contact Information */
 .contact p {
   margin: 5px 0;
   font-size: 16px;
 }
 
-/* Responsive Footer for Small Screens */
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
@@ -373,16 +369,16 @@ body {
 
 .dishes-list {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping of items to the next row */
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 20px; /* Adds space between dish cards */
+  gap: 20px; 
 }
 
 .dish-card {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  width: 200px; /* Fixed width for cards */
+  width: 200px; 
   padding: 16px;
   text-align: center;
 }
