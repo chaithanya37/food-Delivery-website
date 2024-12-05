@@ -28,7 +28,9 @@ function Navbar() {
       <div className="nav-icons">
         <i className="search-icon"></i>
         <i className="cart-icon"></i>
+        <Link to="/signin">
         <button className="btn">Sign In</button>
+        </Link>
       </div>
     </nav>
   );
